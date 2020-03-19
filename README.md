@@ -8,7 +8,7 @@ Here, we are focusing on the detection part and trying to detect the "salad and 
 size of the container. "Big vrac" corresponds to the big containers and "small vrac", to the samll containers.
 Here is a picture of the two types of "salad and fruit" container we want to detect.
 <p float="left">
-    <img src="Images/image1.jpg" width="425"/> 
+    <img src="Images/image1.PNG" width="425"/> 
 </p>
 
 ## SOME INFO ABOUT THE PROJECT
@@ -29,17 +29,17 @@ But it's not always the case. In order to better the detection and classificatio
 ## UNDERSTAND THE FILES AND FOLDERS
 
 -yolo3 : This folder contains :
- utils.py, a file with some miscellaneous utility functions.
- Model.py, a file with the functions related to the CNN model construction and training.
+    -utils.py, a file with some miscellaneous utility functions.
+    -Model.py, a file with the functions related to the CNN model construction and training.
 
 -model_weights : is the folder where we save the weights during training.The most important file of this folder is :
- trained_weights_final.h5, a file containing the final weights of our trained model. You can load these weights to detect salad and fruit images on new images.
+    -trained_weights_final.h5, a file containing the final weights of our trained model. You can load these weights to detect salad and  fruit images on new images.
 
 -images : is the folder containing some of the images I used to train and test my model.
 
 -dataset2020216133642 : is the folder where I saved the test and train sets I used. It contains :
- test.npy, my test set
- train.npy, my training set.
+   -test.npy, my test set
+   -train.npy, my training set.
 
 -yolo_weights.h5 : corresponds to the pretrained weights I used to initialize my model weights
 
